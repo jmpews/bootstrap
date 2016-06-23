@@ -30,6 +30,7 @@
   ],
   "dependencies": {
     "jquery": "1.9.1 - 2",
-    "tether": "^1.1.1"
+    "tether": "^1.1.1",
+    "font-awesome": "fontawesome#^4.6.3"
   }
 }
