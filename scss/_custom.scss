@@ -2,3 +2,24 @@
 //
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
+
+$border-radius:          .1rem !default;
+$border-radius-sm:       .1rem !default;
+
+$brand-primary:             #238efa !default;
+$brand-success:             #1ab667 !default;
+$btn-secondary-border:           #dbe2e7 !default;
+$btn-secondary-color:            #788188 !default;
+$btn-padding-y:                  .3rem !default; 
+
+$card-cap-bg:              #f7fafa !default;
+
+// _reboot.scss
+button:focus {
+    outline: none!important;
+}
+
+// _mixins/_tab-focus.scss
+@mixin tab-focus() {
+    outline: none!important;
+}
